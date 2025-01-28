@@ -1,1 +1,2 @@
-1- grep "Juan" datos.txt
+1- grep -i- "Juan" datos.txt
+2- cut -d "," -f4 "juan" datos.txt
