@@ -3,3 +3,4 @@
 3- cat datos.txt | grep "PROG" | wc -l
 4- cat datos.txt | grep "PROG" | wc -l
 5- cat datos.txt | grep ".es"
+8- cat datos.txt | tail +2 | awk -F "," '{if($3 > 40) print $2,$4}' | sort -n
