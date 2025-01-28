@@ -1,3 +1,4 @@
 1- grep -i- "Juan" datos.txt
 2- cut -d "," -f4 "juan" datos.txt
 3- cat datos.txt | grep "PROG" | wc -l
+4- cat datos.txt | grep "PROG" | wc -l
