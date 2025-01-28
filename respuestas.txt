@@ -1,14 +1,7 @@
-<<<<<<< HEAD
-ID,Nombre,Edad,Email,Teléfono
-1,Ana López,34,ana.lopez@example.com,555-1234
-2,Juan Pérez,28,juan.perez@dominio.com,444-5678
-3,Maria García,41,maria.garcia@example.com,444-8765
-4,Pedro Ruiz,36,pedro.ruiz@dominio.com,555-4321
-5,Lucía Torres,29,lucia.torres@example.com,555-6789
-=======
-1,Ana López,44,ana.lopez@example.es,PROG
-2,Juan Pérez,28,juan.perez@dominio.com,SI-BBDD
-3,Maria García,41,maria.garcia@example.com,PROG
-4,Juan Ruiz,36,juan.ruiz@dominio.com,PROG-SI
-5,Lucía Torres,29,lucia.torres@example.es,BBDD
->>>>>>> primeras
+1- grep -i- "Juan" datos.txt
+2- cut -d "," -f4 "juan" datos.txt
+3- cat datos.txt | grep "PROG" | wc -l
+4- cat datos.txt | grep "PROG" | wc -l
+5- cat datos.txt | grep ".es"
+8- cat datos.txt | tail +2 | awk -F "," '{if($3 > 40) print $2,$4}' | sort -n
+9-
